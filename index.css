@@ -1,0 +1,31 @@
+#box{
+	width: 250px;
+	height: 100px;
+	border: 1px solid green;
+	margin: 100px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+h3{
+	margin: 0 10px;
+}
+
+#ok{
+	display: none;
+}
+
+#oui {
+	background-color: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#non {
+	background-color: red;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
